@@ -17,7 +17,7 @@ end
 local Color0 = '#000000' --comments
 local Color1 = '#000000' --icon colors
 local Color2 = '#000000' --error stuff
-local Color3 = '#000000' --local public
+local Color3 = '#343434' --local public
 local Color4 = '#343434' --strings
 local Color5 = '#000000' --Operator
 local Color6 = '#000000' --function - highlight - link
@@ -31,20 +31,18 @@ local Color13 = '#c43f91' --tabline
 local Color14 = '#000000' --TabLine
 local Color15 = '#000000' --indent char
 
---something
-
-highlight('Comment', nil, Color0, 'italic')
+highlight('Comment', nil, '#ffffff', 'italic')
 highlight('Special', nil, '#949494', 'bold')
 highlight('Constant', nil, Color1, nil)
 highlight('Error', nil, Color2, nil)
-highlight('Type', nil, Color3, nil)
-highlight('String', nil, Color4, nil)
-highlight('Keyword', nil, Color3, nil)
+highlight('Type', nil, Color3, 'bold')
+highlight('String', nil, Color4, 'italic')
+highlight('Keyword', nil, Color3, 'bold')
 highlight('Conditional', nil, Color3, nil)
 highlight('Repeat', nil, Color3, nil)
 highlight('Operator', nil, Color5, nil)
-highlight('Type', nil, Color6, nil)
-highlight('Function', nil, Color6, nil)
+highlight('Type', nil, Color6, 'bold')
+highlight('Function', nil, Color6, 'bold')
 highlight('Type', nil, Color6, nil)
 highlight('parens', nil, Color7, nil)
 highlight('Identifier', nil, Color8, 'italic')
@@ -53,7 +51,7 @@ highlight('WildMenu', '#000000', '#ffffff', nil)
 highlight('Pmenu', '#000000', Color10, nil)
 highlight('PmenuSel', '#000000', '#ffffff', nil)
 highlight('PmenuThumb', '#000000', Color10, nil)
-highlight('Normal', Color9, '#232029', 'bold')
+highlight('Normal', Color9, '#000000', 'bold')
 highlight('Visual', '#000000', '#ffffff', nil)
 highlight('CursorLine', Color11, nil, nil)
 highlight('ColorColumn', '#ffffff', nil, nil)
