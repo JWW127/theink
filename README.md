@@ -1,4 +1,7 @@
-# TheINK
+<div align="center">
+<img src='./theink.png'>
+<h1>The Ink</h1>
+</div>
 
 ### What is this?
 
